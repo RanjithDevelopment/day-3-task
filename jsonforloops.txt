@@ -1,0 +1,86 @@
+     QUSTION NO => 1 // json object itrated using all types of for loops 
+
+ var obj=[{
+"Name":"Ranjith",
+"D.O.B":"29june2001",
+"Age": "22",
+"Degree":"BCA"
+ }]
+
+
+
+FOR LOOP=> for(var i=0;i<1;i++){
+ console.log(obj[i]);
+}
+  -------------------------------------     
+FOR IN LOOP => for(var key in obj){
+console.log(key ,obj[key]);
+}
+
+  ------------------------------------- 
+
+FOR OF LOOP => for(var a of obj ){
+
+console.log(a);
+}
+---------------------------------------
+QUSTION NO 2 => // resume data using JSON 
+
+{
+"basic INFO ":{
+
+"Name":"Ranjith",
+"Degree":"BCA",
+"Department":"Computer Applications",
+"Linked In":"Linkedin.com/Ranjith L",
+"github":"ranjith/git-hub/.in
+"Career Objective":"To be a part of enthusiastic Work environment,where I could enhance my knowledge and apply",
+}
+
+"Communicton Details":{
+"village":"7/24 A morratupalayam",
+"thaluk":"uthukuli"
+"district":"Tiruppur",
+"Pincode":"638752",
+"email":"ranjithproffesional@gmail.com",
+"contact NUmber":"8754380616"
+}
+
+"Educational Details":{
+
+ "BCA":{"CGPA":"6.9",
+         "BAtch":"2021"
+       }
+ "HSC":{"Marks in % ":"74",
+         "Batch":"2018"
+        }
+ "SSLC":{"Marks in %":"85",
+          "Batch":"2016"
+        }
+ }
+
+"skills": [
+    {
+      "name": " Programming Languages ",
+      "level": "more than average ",
+      "keywords": [
+         'Javascript', 'C++', )"
+      ]
+    }
+  ],
+ "languages": [
+    {
+      "language": "Tamil,English",
+      "fluency": "well and good"
+    }
+  ],
+"interests": [
+    {
+      "name": "Sports",
+      "keywords": ["volleyBall,cricket"]
+     }
+
+
+}
+
+
